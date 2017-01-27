@@ -1,8 +1,7 @@
 ---
 title:  'week 1 of the data science course'
 author:
-- Author Sandeep
-
+Sandeep
 ---
 
 # About the project
@@ -11,4 +10,5 @@ In the first week of the open data science course, I have learnt the following t
 *  github
 *  Introduction to R
 *  earned data camp certificate
+
 ---
