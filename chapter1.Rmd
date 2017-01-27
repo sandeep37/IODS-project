@@ -8,7 +8,7 @@ In the first week of the open data science course, I have learnt the following t
 ---
 
 ## My github repository 
-https://github.com/sandeep37/IODS-project
+<https://github.com/sandeep37/IODS-project>
 
 ## My learning diary 
-https://sandeep37.github.io/IODS-project
+<https://sandeep37.github.io/IODS-project/>
