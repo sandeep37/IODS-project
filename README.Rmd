@@ -1,6 +1,6 @@
 ---
 title: "README"
-author: "Sandeeo"
+author: "Sandeep"
 output: "html_document"
 ---
 
