@@ -1,5 +1,7 @@
 ---
+
 title:  'week 1 of the data science course'
+
 ---
 
 # About the project
