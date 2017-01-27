@@ -1,7 +1,8 @@
 ---
 title:  'week 1 of the data science course'
 author:
-Sandeep
+- Sandeep
+
 ---
 
 # About the project
