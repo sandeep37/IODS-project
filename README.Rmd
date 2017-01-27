@@ -1,0 +1,16 @@
+---
+title: "README"
+author: "Sandeeo"
+output: "html_document"
+---
+
+### Description of the course
+In this course I will learn about:
+
+*  github
+*  Introduction to R
+*  earned data camp certificate
+  
+
+## My learning diary 
+<https://sandeep37.github.io/IODS-project/>
