@@ -1,9 +1,3 @@
----
-
-title:  'week 1 of the data science course'
-
----
-
 # About the project
 ---
 In the first week of the open data science course, I have learnt the following things.
