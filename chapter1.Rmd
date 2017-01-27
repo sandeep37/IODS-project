@@ -1,11 +1,7 @@
 ---
-title:  'This is the title: it contains a colon'
+title:  'week 1 of the data science course'
 author:
 - Author Sandeep
-
-tags: [R]
-abstract: |
-  This is the abstract.
 
 ---
 
