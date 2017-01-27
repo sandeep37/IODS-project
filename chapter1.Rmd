@@ -11,6 +11,7 @@ In the first week of the open data science course, I have learnt the following t
 *  github
 *  Introduction to R
 *  earned data camp certificate
+
 ---
 
 ## My github repository 
