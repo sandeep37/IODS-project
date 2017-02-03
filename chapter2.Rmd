@@ -16,3 +16,13 @@ summary(students2014)
 ```
 The student data set has 166 observations and 7 variables. These observations correspond to the responses of students in a statistical course. From the summary data, it is evident that female participants were almost double than male participants. The age of the participants varied from 17 to 55. The median age of the participants is 22. The variable 'Attitude' is measured in terms of interest in pursuing statistical studies and their confidence in applying various mathematical operations. Deep is a combination of questions which focused on students willingness to understand new concepts and applying the same in various applications. Stra focused on evaluating individual study plans and time management. Surf included the questions to understand the factors that could demotivate an individual during the learning process. It also included questions on one's willingness to explore the concepts beyond the syllabus. Points correspond to the maximum exam points.
 
+### Graphical Overview
+We plot the data which helps to understand the data in a easy way.
+
+```{r}
+library(ggplot2)
+library(GGally)
+ggpairs(students2014, mapping = aes(col = gender, alpha = 0.1), lower = list(combo = wrap("facethist", bins = 20)))
+```
+
+
