@@ -25,4 +25,3 @@ library(GGally)
 ggpairs(students2014, mapping = aes(col = gender, alpha = 0.1), lower = list(combo = wrap("facethist", bins = 20)))
 ```
 
-
