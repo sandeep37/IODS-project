@@ -1,7 +1,18 @@
-# Insert chapter 2 title here
+#Analysis of student data
+<!-- comment out following text -->
+<!-- *Describe the work you have done this week and summarize your learning.* -->
 
-*Describe the work you have done this week and summarize your learning.*
+<!-- - Describe your work and results clearly. -->
+<!-- - Assume the reader has an introductory course level understanding of writing and reading R code as well as statistical methods -->
+<!-- - Assume the reader has no previous knowledge of your data or the more advanced methods you are using  -->
 
-- Describe your work and results clearly. 
-- Assume the reader has an introductory course level understanding of writing and reading R code as well as statistical methods
-- Assume the reader has no previous knowledge of your data or the more advanced methods you are using  
+### Introduction to the data
+I have completed the data wrangling exercise. Hence, data set from the local data folder is used for exploration.
+```{r}
+students2014 <- read.csv("data/learning2014.csv")
+dim(students2014)
+str(students2014)
+summary(students2014)
+```
+The student data set has 166 observations and 7 variables. These observations correspond to the responses of students in a statistical course. From the summary data, it is evident that female participants were almost double than male participants. The age of the participants varied from 17 to 55. The median age of the participants is 22. The variable 'Attitude' is measured in terms of interest in pursuing statistical studies and their confidence in applying various mathematical operations. Deep is a combination of questions which focused on students willingness to understand new concepts and applying the same in various applications. Stra focused on evaluating individual study plans and time management. Surf included the questions to understand the factors that could demotivate an individual during the learning process. It also included questions on one's willingness to explore the concepts beyond the syllabus. Points correspond to the maximum exam points.
+
