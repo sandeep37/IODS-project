@@ -59,10 +59,10 @@ dim(learning2014)
 setwd("~/MS/data-science/IODS-project/data")
 
 #save dataset
-write.csv(learning2014, file = "learning2014.csv")
+write.csv(learning2014, file = "learning2014.csv",row.names=FALSE)
 
 #read the data from local file
-data <- read.csv(file = "learning2014.csv")
+data <- read.csv("learning2014.csv")
 head(data)
 str(data)
 
