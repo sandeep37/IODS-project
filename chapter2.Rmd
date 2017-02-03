@@ -25,6 +25,6 @@ library(GGally)
 ggpairs(students2014, mapping = aes(col = gender, alpha = 0.1), lower = list(combo = wrap("facethist", bins = 20)))
 ```
 
-The above plots summarizes all the variables of the data set. From the plot, we figure out that average age of the male participants is higher than female participants. Also, male participants have higher attitude, less interested in deep learning. On the other hand, female participants are interested in deep learning. It is clear from the plot that, exam points are highly positively correlated with attitude but negatively correlated on surface learning. Male participants scored better than female participants in the examination. 
+The above plot summarizes all the variables of the data set. From the plot, we figure out that average age of the male participants is higher than female participants. Also, male participants have higher attitude, less interested in deep learning. On the other hand, female participants are interested in deep learning. It is clear from the plot that, exam points are highly positively correlated with attitude but negatively correlated on surface learning. Male participants scored better than female participants in the examination. 
 
 
