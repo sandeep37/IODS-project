@@ -55,6 +55,15 @@ dim(learning2014)
 
 #The analysis data set has 166 observations and 7 variables
 
-#save data frame to file in data directory
-write.csv(learning2014, file = "~/MS/data-science/IODS-project/data/learning2014.csv")
+#set working directory
+setwd("~/MS/data-science/IODS-project/data")
+
+#save dataset
+write.csv(learning2014, file = "learning2014.csv")
+
+#read the data from local file
+data <- read.csv(file = "learning2014.csv")
+head(data)
+str(data)
+
 
